@@ -526,8 +526,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: FMOD Studio/Tavern/Tavern.fspro
-  sourceBankPath: FMOD Studio/Tavern/Build
+  sourceProjectPath: ../../ght/ght.fspro
+  sourceBankPath: ../../ght/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 1
   ShowBankRefreshWindow: 1
