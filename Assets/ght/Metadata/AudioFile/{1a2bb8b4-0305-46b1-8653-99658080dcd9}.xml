@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1a2bb8b4-0305-46b1-8653-99658080dcd9}">
+		<property name="assetPath">
+			<value>65748__dobroide__20081231fire02.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>60</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1969cf5f-f1a2-463b-af62-e3455151789b}</destination>
+		</relationship>
+	</object>
+</objects>

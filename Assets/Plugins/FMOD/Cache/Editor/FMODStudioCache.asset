@@ -1,25 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8635355997640709967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../ght/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 639126233188038631
-  FileSizes:
-  - Name: Desktop
-    Value: 1853568
-  Exists: 1
 --- !u!114 &-7056209999273936499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39,7 +19,7 @@ MonoBehaviour:
     Data3: -1912337015
     Data4: 211331938
   Banks:
-  - {fileID: -8635355997640709967}
+  - {fileID: 1973569283465610637}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -67,7 +47,7 @@ MonoBehaviour:
     Data3: -1076247111
     Data4: 1770316750
   Banks:
-  - {fileID: -8635355997640709967}
+  - {fileID: 1973569283465610637}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -128,7 +108,7 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
---- !u!114 &-3601800960419175842
+--- !u!114 &-1101666068991151689
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,17 +117,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/outside
   m_EditorClassIdentifier: 
-  Path: ../../ght/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 639126233188053821
-  FileSizes:
-  - Name: Desktop
-    Value: 940
-  Exists: 1
+  Path: snapshot:/outside
+  Guid:
+    Data1: -941898651
+    Data2: 1097724045
+    Data3: -1618711626
+    Data4: -1186643812
+  Banks:
+  - {fileID: 1973569283465610637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-122119501476800265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,20 +174,22 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -3601800960419175842}
-  - {fileID: -8635355997640709967}
+  - {fileID: 1958489863715927691}
+  - {fileID: 1973569283465610637}
   EditorEvents:
   - {fileID: 2370796103865057414}
   - {fileID: 3093503056678353277}
   - {fileID: -7056209999273936499}
   - {fileID: -6843554161539694098}
+  - {fileID: -1101666068991151689}
+  - {fileID: 6787662424772216609}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -8635355997640709967}
+  - {fileID: 1973569283465610637}
   StringsBanks:
-  - {fileID: -3601800960419175842}
+  - {fileID: 1958489863715927691}
   cacheVersion: 131859
-  cacheTime: 639126233188053821
+  cacheTime: 639129774572522866
   SerializableEventsDict:
   - key: event:/New Event 4
     index: 0
@@ -210,6 +199,10 @@ MonoBehaviour:
     index: 2
   - key: event:/New Event 5
     index: 3
+  - key: snapshot:/outside
+    index: 4
+  - key: event:/New Event 7
+    index: 5
 --- !u!114 &371276893304686465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -236,6 +229,46 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
+--- !u!114 &1958489863715927691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/ght/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 639129774572522866
+  FileSizes:
+  - Name: Desktop
+    Value: 1094
+  Exists: 1
+--- !u!114 &1973569283465610637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/ght/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 639129774572522866
+  FileSizes:
+  - Name: Desktop
+    Value: 3275168
+  Exists: 1
 --- !u!114 &2370796103865057414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,7 +288,7 @@ MonoBehaviour:
     Data3: 97035658
     Data4: -1961512084
   Banks:
-  - {fileID: -8635355997640709967}
+  - {fileID: 1973569283465610637}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -283,7 +316,7 @@ MonoBehaviour:
     Data3: -904074087
     Data4: 1217242588
   Banks:
-  - {fileID: -8635355997640709967}
+  - {fileID: 1973569283465610637}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -292,3 +325,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 74348
+--- !u!114 &6787662424772216609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Event 7
+  m_EditorClassIdentifier: 
+  Path: event:/New Event 7
+  Guid:
+    Data1: 939243219
+    Data2: 1246702871
+    Data3: 1900803262
+    Data4: 442289072
+  Banks:
+  - {fileID: 1973569283465610637}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 106500

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8f04fe6c-50cc-46c8-927a-5193e9b293c0}">
+		<property name="assetPath">
+			<value>footsteps_stone_6.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.29297052154195014</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1969cf5f-f1a2-463b-af62-e3455151789b}</destination>
+		</relationship>
+	</object>
+</objects>

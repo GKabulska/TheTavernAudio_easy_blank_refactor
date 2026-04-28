@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{13090b7f-3ee1-4866-9787-f9e6a9959a16}">
+		<property name="assetPath">
+			<value>667646__klankbeeld__calm-forest-park-nl-eu-1153-220617_0405.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>106.50066666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1969cf5f-f1a2-463b-af62-e3455151789b}</destination>
+		</relationship>
+	</object>
+</objects>
