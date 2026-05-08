@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{ba301268-05a1-4a86-b9c5-d9bfcee38469}">
 		<property name="name">
-			<value>New Event 5</value>
+			<value>Fire</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -30,9 +30,6 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{abe34d3d-907f-4d18-a916-57c06ee09dc3}</destination>
-		</relationship>
-		<relationship name="parameters">
-			<destination>{bd8bf702-b6f5-4f14-ba56-dd03c18ae061}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{dd79ce12-6067-450d-a368-1b7d372b9f78}</destination>
@@ -73,10 +70,8 @@
 		<relationship name="modules">
 			<destination>{25cb15bd-b39d-4e46-8d8d-431452fa233a}</destination>
 		</relationship>
-	</object>
-	<object class="ParameterProxy" id="{bd8bf702-b6f5-4f14-ba56-dd03c18ae061}">
-		<relationship name="preset">
-			<destination>{1d4f193b-8826-4355-9ad4-61f23a73ae69}</destination>
+		<relationship name="markers">
+			<destination>{8eeeedb0-5713-406a-91bf-4d2e580df7b8}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d814aaaf-97df-4b73-8804-ca9bc71dee03}">
@@ -116,6 +111,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{d814aaaf-97df-4b73-8804-ca9bc71dee03}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{8eeeedb0-5713-406a-91bf-4d2e580df7b8}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>60</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{abe34d3d-907f-4d18-a916-57c06ee09dc3}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{49149e18-3908-4896-ba80-bccdaf104b33}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{36c85602-6e8a-489d-91fb-162870d36bb7}">

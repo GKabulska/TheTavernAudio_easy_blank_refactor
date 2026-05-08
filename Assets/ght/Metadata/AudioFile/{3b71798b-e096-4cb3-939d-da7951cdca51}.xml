@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{3b71798b-e096-4cb3-939d-da7951cdca51}">
+		<property name="assetPath">
+			<value>jumping_wood_4.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.45793650793650792</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{1969cf5f-f1a2-463b-af62-e3455151789b}</destination>
+		</relationship>
+	</object>
+</objects>

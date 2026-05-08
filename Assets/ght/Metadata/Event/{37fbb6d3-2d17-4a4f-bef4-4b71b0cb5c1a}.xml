@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{37fbb6d3-2d17-4a4f-bef4-4b71b0cb5c1a}">
 		<property name="name">
-			<value>New Event 7</value>
+			<value>Forest</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -46,6 +46,9 @@
 		</relationship>
 	</object>
 	<object class="MixerInput" id="{82c0f298-7a4f-4cf9-bc08-6c2f7a774e3e}">
+		<relationship name="masters">
+			<destination>{69978735-768a-4108-a353-8b73b5abeb3c}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{8519117a-f9f9-4047-812b-009f1171573a}</destination>
 		</relationship>
@@ -100,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ac968e9c-2edd-4efa-add4-b49214c189d0}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
