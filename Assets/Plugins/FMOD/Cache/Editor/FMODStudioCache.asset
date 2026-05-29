@@ -52,36 +52,10 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -2703096838430320388}
+  - {fileID: 1492487097677770636}
   MinDistance: 1
   MaxDistance: 20
   Length: 566
---- !u!114 &-2703096838430320388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Jump/Parameter 1
-  m_EditorClassIdentifier: 
-  Name: Parameter 1
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 2896310754
-    data2: 2018820059
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Jump_stone
-  - Jump_wood
-  Exists: 1
 --- !u!114 &-1813860156367517879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,7 +142,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 1958489863715927691}
   cacheVersion: 131859
-  cacheTime: 639138418023682095
+  cacheTime: 639156499317027317
   SerializableEventsDict:
   - key: snapshot:/outside
     index: 0
@@ -219,6 +193,32 @@ MonoBehaviour:
   - open
   - close
   Exists: 1
+--- !u!114 &1492487097677770636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Jump/Footsteps_surface
+  m_EditorClassIdentifier: FMODUnityEditor::FMODUnity.EditorParamRef
+  Name: Footsteps_surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3085466811
+    data2: 567337816
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  Exists: 1
 --- !u!114 &1958489863715927691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,10 +234,10 @@ MonoBehaviour:
   Path: Assets/ght/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639138418023682095
+  lastModified: 639156499317027317
   FileSizes:
   - Name: Desktop
-    Value: 1598
+    Value: 1556
   Exists: 1
 --- !u!114 &1973569283465610637
 MonoBehaviour:
@@ -254,10 +254,10 @@ MonoBehaviour:
   Path: Assets/ght/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639138418023662093
+  lastModified: 639156499317017236
   FileSizes:
   - Name: Desktop
-    Value: 4038304
+    Value: 4038176
   Exists: 1
 --- !u!114 &3074832975496764339
 MonoBehaviour:
@@ -286,7 +286,7 @@ MonoBehaviour:
   - {fileID: 1367990808428189797}
   MinDistance: 1
   MaxDistance: 20
-  Length: 928
+  Length: 1078
 --- !u!114 &3260347206101642392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   - {fileID: 3671239192204816064}
   MinDistance: 1
   MaxDistance: 20
-  Length: 928
+  Length: 1398
 --- !u!114 &8196080538037072623
 MonoBehaviour:
   m_ObjectHideFlags: 0

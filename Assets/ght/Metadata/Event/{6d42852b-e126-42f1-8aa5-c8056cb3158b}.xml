@@ -132,6 +132,9 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{bb083d29-b8e4-43fc-9294-05720bbfef01}">
+		<property name="start">
+			<value>0.51000000000000001</value>
+		</property>
 		<property name="length">
 			<value>0.88870748299319724</value>
 		</property>
